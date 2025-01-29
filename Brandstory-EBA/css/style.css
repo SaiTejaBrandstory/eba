@@ -1,0 +1,973 @@
+body{
+    font-family: "Hanken Grotesk", serif;
+}
+
+.employer-branding {
+    background-color: #000;
+    color: #fff;
+    font-family: 'HK Grotesk', sans-serif;
+    padding-top: 150px;
+  }
+  
+  .employer-branding h1 {
+    color: #F0EFEE;
+    font-family: "Hanken Grotesk", serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 62.56px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 30px 0;
+  }
+  
+  .employer-branding p {
+    color: #F0EFEE;
+    font-family: "Hanken Grotesk", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.06px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .employer-branding-content{
+    padding: 100px 10px;
+  }
+
+  .btn-contact{
+    color: #000000;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 17px 30px;
+  }
+
+  .btn-contact:hover{
+    border: 1px solid #FFFFFF;
+  }
+
+  .btn-template{
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 10px 20px;
+    border: 1px solid #FFFFFF;
+  }
+
+  .template-span{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+  }
+
+  .btn-template:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+
+  }
+
+  
+  .supported-enterprises {
+    color: #000000;
+    background-color: #ffffff;
+    padding: 70px 0;
+    width: 100%;
+  }
+  
+  .supported-enterprises h2 ,  .employer-branding-solutions h2 ,.contact-us h2 , .brand-benefits h2, .brand-services h2 , .resources-title , .query-title{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49.51px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 30px 0;
+  }
+  
+  .enterprise-box {
+    padding: 10px;
+    background-color: #F7F7F7;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border: 1px solid #E7E7E7;
+  }
+  
+  .enterprise-box img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .employer-branding-solutions {
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    padding: 50px 0;
+  }
+  
+  .employer-branding-solutions h2 {
+    text-align: left;
+    padding: 0;
+    margin: 30px 0;
+  }
+  
+  .employer-branding-solutions p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+  }
+
+  .experience-expertise {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+    width: 100%;
+  }
+  
+  .experience-expertise .card {
+    background-color: #313131;
+    padding: 30px 50px;
+    border-radius: 16px;
+    text-align: left;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .experience-expertise h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+  }
+  
+  .experience-expertise p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+    color: #FFFFFF;
+  }
+  
+  .contact-us {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  .contact-us h2 {
+    text-align: left;
+    color: #000;
+  }
+  
+  .contact-us .left-box {
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    padding: 130px 30px;
+    text-align: center;
+  }
+  
+  .contact-us .left-box p {
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+  
+  .contact-us .btn-schedule {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+    border: 1px solid #000;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; 
+  }
+
+  .contact-us .btn-schedule:hover {
+    background-color: #FFFFFF;
+    color: #000;
+  }
+  
+  .contact-us label {
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #344054;
+  }
+  
+  .contact-us .form-control {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #D0D5DD;
+    border-radius: 5px;
+    margin-bottom: 30px !important;
+  }
+  
+  .contact-us .form-control::placeholder {
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+
+  .contact-us .btn-submit {
+    background-color: #845EF7;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #845EF7;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .contact-us .btn-submit:hover {
+    background-color: #fff;
+    color: #845EF7;
+
+  }
+
+  .brand-benefits {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .benefit-card {
+    background-color: #F4FAFF;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .benefit-card::before {
+    content: "";
+    width: 25px;
+    height: 100%;
+    background-color: var(--line-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+  }
+  
+  .icon-circle {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .card-title {
+font-size: 32px;
+font-weight: 700;
+line-height: 41.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+  
+  .benefit-card p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-left: 30px;
+  }
+
+  .btn-consult{
+    color: #ffffff;
+    background-color: #845EF7;
+    border: 1px solid #845EF7 !important;
+    padding: 10px 40px;
+font-size: 16px;
+font-weight: 700;
+line-height: 20.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+  
+  .btn-consult:hover{
+    background-color: #fff;
+    color: #845EF7;
+  }
+
+
+  
+.brand-services {
+    padding: 60px 0;
+    background-color: #F2F2F2;
+  }
+
+  .brand-services-p {
+    color: #000000;
+font-size: 20px;
+font-weight: 500;
+line-height: 26.06px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+
+  .brand-services-row{
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 5px;
+  }
+  
+  .brand-services li {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+    margin-bottom: 8px;
+  }
+
+  .card-heading {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px 10px 0;
+    color: #000000;
+    font-weight: 700;
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    background-position: left 5px center; 
+    margin-bottom: 10px;
+}
+
+  
+  .small-text-bg {
+   
+font-size: 18px;
+font-weight: 700;
+line-height: 25.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+  
+  .card-title-bg {
+font-size: 32px;
+font-weight: 700;
+line-height: 44.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+  
+  .card-sub-title-bg{
+    color: #000000;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+
+  .li-heading{
+    color: #000000;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+
+.section-title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #000;
+    text-align: left;
+}
+
+.faq-wrapper {
+    margin-top: 20px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #E0E0E0;
+    padding: 21px;
+    transition: all 0.3s ease;
+}
+
+.faq-item.active {
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    padding: 21px;
+    margin-bottom: 10px;
+}
+
+.faq-item.active + .faq-item {
+    border-top: none; 
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.faq-icon {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.faq-answer {
+    display: none;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000;    
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+
+.delivery {
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  
+  .delivery-text {
+    padding: 20px;
+  }
+  
+  .delivery .ellipsis {
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .delivery-text h4{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .delivery-text p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+ 
+  .read-more {
+    color: #845EF7;
+    text-decoration: none;
+  }
+  
+  .delivery-img {
+    width: 100%;
+  }
+
+  .modal-content {
+    border-radius: 15px;
+}
+
+.modal-header {
+    border-bottom: none;
+    padding: 20px 20px 0 20px;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+#modalImage {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 20px;
+}
+
+
+.resources-section {
+    padding: 60px 0;
+}
+
+.resources-card {
+    border: none;
+    transition: transform 0.3s ease;
+    background: transparent;
+}
+
+.resources-card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.resources-card-body {
+    padding: 15px 0;
+}
+
+.resources-card-title {
+    margin: 15px 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000;
+}
+
+.resources-card-text {
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000;
+    margin-bottom: 0;
+}
+
+
+
+.enquiry-section {
+    background-color: #000000;
+    padding: 150px 0;
+    position: relative;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+.semi-circle-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.semi-circle {
+    width: 360px;
+    height: 180px;
+    border-radius: 180px 180px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px 50px;
+}
+
+.semi-circle-purple {
+    background-color: #845EF7;
+}
+
+.semi-circle-blue {
+    background-color: #EA7D30;
+}
+
+.semi-circle p {
+    padding-top: 30px;
+font-size: 16px;
+font-weight: 500;
+line-height: 25.2px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+    margin-bottom: 10px;
+}
+
+.semi-circle a {
+    color: #ffffff;
+    text-decoration: underline;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+text-align: center;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+/* For tablets (768px and below) */
+@media (max-width: 768px) {
+    .employer-branding h1 {
+      font-size: 45px;
+      line-height: 48px;
+    }
+    
+    /* .employer-branding p {
+      font-size: 16px;
+      line-height: 24px;
+    } */
+    
+    .btn-contact{
+      font-size: 16px;
+      padding: 20px 20px;
+    }
+ 
+    .btn-template {
+      font-size: 16px;
+      padding: 12px 20px;
+    }
+
+    .supported-enterprises h2, .employer-branding-solutions h2 ,.contact-us h2 , .brand-benefits h2, .brand-services h2 , .resources-title , .query-title {
+        font-size: 32px;
+        line-height: 40px;
+        padding: 25px 0;
+      }
+
+      .contact-us .left-box {
+        padding: 50px 30px;
+    }
+
+    .enquiry-section {
+        padding: 200px 0 200px;
+    }
+
+    .semi-circle-container {
+        flex-direction: column;
+        align-items: center;
+        bottom: 20px;
+    }
+
+    .semi-circle {
+        width: 320px;
+        height: 160px;
+        font-size: 13px;
+    }
+
+    .semi-circle p {
+         font-size: 14px;
+    }
+
+    .semi-circle a {
+        font-size: 16px;
+    }
+  }
+  
+  /* For mobile devices (576px and below) */
+  @media (max-width: 576px) {
+    .employer-branding h1 {
+      font-size: 36px;
+      line-height: 42px;
+    }
+    
+    /* .employer-branding p {
+      font-size: 14px;
+      line-height: 20px;
+    } */
+    
+    .btn-template {
+      font-size: 14px;
+      padding: 10px 15px;
+    }
+
+    .btn-contact {
+      font-size: 14px;
+      padding: 14px 15px;
+    }
+
+    .supported-enterprises h2 , .employer-branding-solutions h2 ,.contact-us h2 , .brand-benefits h2, .brand-services h2 , .resources-title , .query-title  {
+        font-size: 28px;
+        line-height: 35px;
+        padding: 20px 0;
+    }
+
+    .supported-enterprises {
+        padding: 10px;
+    }
+
+    .employer-branding-content{
+        padding: 10px;
+      }
+
+      .contact-us .left-box {
+        padding: 30px 30px;
+    }
+
+    .contact-us .left-box p {
+        font-size: 20px;
+        line-height: 28px;
+      }
+
+      .brand-benefits {
+        padding: 0 !important;
+      }
+
+      .card-title {
+        font-size: 24px;
+        line-height: 30px;
+      }
+
+      .benefit-card p {
+        font-size: 16px;
+      }
+
+      .btn, button{
+        font-size: 14px !important;
+        margin-bottom: 15px;
+      }
+
+      .brand-services-p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+  
+    .brand-services li {
+        font-size: 16px;
+        line-height: 24px;
+    }
+  
+    .small-text-bg {
+        font-size: 16px;
+        line-height: 22px;
+    }
+  
+    .card-title-bg {
+        font-size: 24px;
+        line-height: 34px;
+    }
+  
+    .card-sub-title-bg {
+        font-size: 16px;
+        line-height: 24px;
+    }
+  
+    .li-heading {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .faq-question, .faq-icon {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .modal-title {
+        padding: 10px 0;
+    }
+
+    .resources-title, .brand-services{
+        padding: 0;
+    }
+
+    .query-question {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .query-answer {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .query-link {
+        font-size: 18px !important;
+        line-height: 26px;
+    }
+      
+
+    br{
+        display: none;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.query-section {
+    background-color: #F2F2F2;
+}
+
+.query-item {
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.query-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding: 25px;
+}
+
+.query-icon {
+    font-style: normal;
+    font-size: 24px;
+    color: #666;
+    transition: transform 0.3s ease;
+}
+
+.query-answer {
+    display: none;
+    padding: 0 20px 20px;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.query-item.active .query-icon {
+    transform: rotate(45deg);
+}
+
+.query-link {
+    color: #845EF7;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    }
+
+.query-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.query-item.active .query-answer {
+    max-height: 500px;
+    display: block;
+}

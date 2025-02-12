@@ -135,3 +135,28 @@ function toggleAnswer(element) {
         item.classList.add('active');
     }
 }
+
+
+// office branding faq
+
+
+function toggleBrandingFAQ(element) {
+    const item = element.parentElement;
+    const wasActive = item.classList.contains('active');
+
+    // Close all open FAQ items **only within branding-faq section**
+    document.querySelectorAll('.branding-faq .branding-faq-item').forEach(activeItem => {
+        activeItem.classList.remove('active');
+        activeItem.querySelector('.branding-faq-icon').textContent = '+'; // Reset icon
+    });
+
+    // Toggle current item
+    if (!wasActive) {
+        item.classList.add('active');
+        element.querySelector('.branding-faq-icon').textContent = '-'; // Change icon
+    }
+}
+
+document.querySelector('.date-container i').addEventListener('click', function() {
+    document.getElementById('consultation-date').focus();
+});

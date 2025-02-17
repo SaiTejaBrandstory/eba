@@ -1332,6 +1332,14 @@ line-height: 24px;
   .get-in-touch .get-in-touch-form {
     padding: 15px 30px 40px 30px;
   }
+
+  .branding-faq{
+    margin: 10px;
+  }
+
+  .branding-image{
+    padding-right: 10px;
+  }
 }
 
 
